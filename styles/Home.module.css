@@ -8,6 +8,16 @@
   height: 100vh;
 }
 
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 12px;
+}
+
+.content{
+  padding: 10px 20px;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;

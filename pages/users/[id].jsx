@@ -1,5 +1,6 @@
 import {useRouter} from 'next/router';
-import Navigation from '../../widgets/Navigation';
+import Layout from '../../components/Layout';
+import Title from '../../components/Title';
 
 const User = () => {
     const router = useRouter();
@@ -7,12 +8,11 @@ const User = () => {
     console.log(router.query.user);
 
     return(
-        <div>
-            <Navigation />
-            <h1>User Details</h1>
+        <Layout>
+            <Title>User Details</Title>
 
             <p>User ID: {router.query.id}</p>
-        </div>
+        </Layout>
     )
 }
 

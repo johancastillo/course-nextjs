@@ -1,13 +1,13 @@
-import Navigation from "../../widgets/Navigation";
+import Layout from "../../components/Layout";
+import Title from "../../components/Title";
 
 const Users = () => {
     return(
-        <div>
-            <Navigation />
+        <Layout>
 
-            <h1>Users Page</h1>
+            <Title>Users Page</Title>
 
-        </div>
+        </Layout>
     )
 };
 
