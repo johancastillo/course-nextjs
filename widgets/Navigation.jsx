@@ -19,13 +19,21 @@ const Navigation = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">
-                Inicio
-            </Nav.Link>
+            <Link href="/">
+                <a>
+                    <Nav.Link href="#action2">
+                        Inicio
+                    </Nav.Link>
+                </a>
+            </Link>
 
-            <Nav.Link href="#action2">
-                Link
-            </Nav.Link>
+            <Link href="/users">
+                <a>
+                    <Nav.Link href="#action2">
+                        Users
+                    </Nav.Link>
+                </a>
+            </Link>
 
             <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
