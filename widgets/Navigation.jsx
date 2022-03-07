@@ -7,9 +7,7 @@ const Navigation = () => {
       <Container fluid>
         
         <Link href="/">
-            <a>
                 <Navbar.Brand>Biblioteca Digital</Navbar.Brand>
-            </a>
         </Link>
         
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -20,19 +18,15 @@ const Navigation = () => {
             navbarScroll
           >
             <Link href="/">
-                <a>
                     <Nav.Link href="#action2">
                         Inicio
                     </Nav.Link>
-                </a>
             </Link>
 
             <Link href="/users">
-                <a>
                     <Nav.Link href="#action2">
                         Users
                     </Nav.Link>
-                </a>
             </Link>
 
             <NavDropdown title="Link" id="navbarScrollingDropdown">

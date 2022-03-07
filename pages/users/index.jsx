@@ -31,7 +31,6 @@ const Users = ({users}) => {
 };
 
 
-export default Users;
 
 export async function getStaticProps(){
 
@@ -46,3 +45,7 @@ export async function getStaticProps(){
     }
 
 }
+
+
+
+export default Users;

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Col, Container, FormControl, Row } from "react-bootstrap";
@@ -67,6 +68,11 @@ export default function Home ({posts}){
 
   return (
     <Layout>
+            <Head>
+                <title>Holaaa</title>
+                
+            </Head>
+
       <Image
         src="/banner.jpg"
         layout="responsive"
